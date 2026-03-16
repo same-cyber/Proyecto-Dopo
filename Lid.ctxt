@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Lid
+comment0.text=\r\n\ Representa\ la\ tapa\ de\ una\ taza\ dentro\ de\ la\ torre.\r\n\ \r\n\ Cada\ tapa\:\r\n\ -\ Est\u00E1\ asociada\ a\ una\ taza\ mediante\ su\ n\u00FAmero.\r\n\ -\ Tiene\ una\ altura\ fija\ de\ 1\ cm.\r\n\ -\ Comparte\ caracter\u00EDsticas\ visuales\ con\ la\ taza.\r\n\ \r\n\ Cuando\ la\ taza\ est\u00E1\ cubierta,\ tapa\ y\ taza\ deben\ moverse\ juntas.\r\n\ \r\n\ @author\ Nicol\u00E1s\ Prieto\r\n\ @author\ Sebastian\ Pe\u00F1a\r\n\ @version\ 2.0\r\n
+comment1.params=cupNumber
+comment1.target=Lid(int)
+comment1.text=\r\n\ Constructor\ de\ la\ tapa.\r\n\ \r\n\ @param\ cupNumber\ n\u00FAmero\ de\ la\ taza\ asociada\r\n
+comment2.params=x\ y
+comment2.target=void\ setPosition(int,\ int)
+comment2.text=\r\n\ Establece\ la\ posici\u00F3n\ gr\u00E1fica\ de\ la\ tapa.\r\n\ \r\n\ @param\ x\ posici\u00F3n\ horizontal\r\n\ @param\ y\ posici\u00F3n\ vertical\r\n
+comment3.params=width
+comment3.target=void\ setSize(int)
+comment4.params=color
+comment4.target=void\ setColor(java.lang.String)
+comment5.params=
+comment5.target=int\ getCupNumber()
+comment5.text=\r\n\ Retorna\ el\ n\u00FAmero\ de\ la\ taza\ asociada.\r\n\ \r\n\ @return\ n\u00FAmero\ de\ la\ taza\r\n
+comment6.params=
+comment6.target=Rectangle\ getVisual()
+comment7.params=
+comment7.target=void\ makeVisible()
+comment8.params=
+comment8.target=void\ makeInvisible()
+numComments=9
